@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFonnpx tailwindcss initt, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.Home {
+  background-color: #1e1045;
+  color: aliceblue;
+  height: 100vh;
+  width: 95%;
+  margin: auto;
+}
+.all {
+  margin-left: 450px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: large;
+  width: 500px;
+}
+.trash {
+  margin-left: auto;
+  margin-right: 5px;
+}
+.common {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.check {
+  border: 4px double pink;
+  color: blueviolet;
+  border-radius: 8px;
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #390352;
+  width: 500px;
+  border: 4px outset black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+.Uptext {
+  color: bisque;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: large;
+  padding-left: 25px;
+}
+
+.galochka {
+  position: relative;
+  top: -6px;
+  left: -6px;
+}
+.field {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #390352;
+  width: 500px;
+  border: 4px outset black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+.infield {
+  width: 500px;
+}
+.input {
+  width: 450px;
+  margin-left: 20px;
+  color: #390352;
+}
